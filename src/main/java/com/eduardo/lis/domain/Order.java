@@ -10,6 +10,8 @@ import lombok.Data;
 @Data
 public class Order {
 
+	private String id;
+
 	private List<Test> tests;
 
 	private Container<?> container;

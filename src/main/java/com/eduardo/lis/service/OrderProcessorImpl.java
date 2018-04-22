@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.eduardo.lis.domain.Order;
 
-public class TestManagerServiceImpl implements TestManagerService {
+public class OrderProcessorImpl implements OrderProcessor {
 
 	@Override
 	public List<String> process(Order order) {
